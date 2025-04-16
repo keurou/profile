@@ -53,13 +53,13 @@ params:
     safari_pinned_tab: "Thinking_Face_Emoji_large.png"
 
   label:
-    text: "🏠 Home"
+    text: "Home"
     # icon: Thinking_Face_Emoji_large.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: "I'm Kentaro"
     subtitle: "Ph.D course student."
     #imageUrl: "https://avatars.githubusercontent.com/u/59508678?v=4"
@@ -98,7 +98,7 @@ params:
 menu:
   main:
     - identifier: profile
-      name: profile
+      name: Profile
       url: profile
       weight: 5
 #    - identifier: profile
